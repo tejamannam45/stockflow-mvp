@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # StockFlow MVP
 
 Multi-tenant SaaS inventory management app built for the Wexa AI Full Stack Developer assessment.
@@ -13,14 +12,19 @@ Multi-tenant SaaS inventory management app built for the Wexa AI Full Stack Deve
 - Dashboard: total products, total units, low-stock table
 - Settings: default low-stock threshold
 
-## Quick start
+## Quick start (local)
+
+Requires a PostgreSQL URL (Neon free tier recommended).
 
 ```bash
 npm install
 cp .env.example .env
-npx prisma migrate dev --name init
+# Set DATABASE_URL in .env to your Neon connection string
+npx prisma migrate deploy
 npm run dev
 ```
+
+See **[DEPLOY.md](./DEPLOY.md)** for full Vercel + Neon deployment steps.
 
 Open [http://localhost:3000](http://localhost:3000).
 
@@ -28,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Variable | Description |
 |----------|-------------|
-| `DATABASE_URL` | `file:./dev.db` for SQLite, or PostgreSQL URL in production |
+| `DATABASE_URL` | Neon PostgreSQL pooled connection string |
 | `JWT_SECRET` | Random secret (`openssl rand -base64 32`) |
 
 ## Scripts
@@ -58,7 +62,3 @@ Repository: https://github.com/tejamannam45/stockflow-mvp
 - [x] Product list with search
 - [x] Settings for default threshold
 - [ ] Deployed live URL
-=======
-# stockflow-mvp
-stock flow design 
->>>>>>> 35b323e729c921fdebfa46830a6b0cb784860ade
