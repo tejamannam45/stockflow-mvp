@@ -47,7 +47,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## GitHub
 
-Repository: https://github.com/Rravi12/stockflow-mvp
+Repository: https://github.com/tejamannam45/stockflow-mvp
 
 ## Assessment checklist
 
