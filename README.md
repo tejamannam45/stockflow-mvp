@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StockFlow MVP
 
 Multi-tenant SaaS inventory management app built for the Wexa AI Full Stack Developer assessment.
@@ -57,3 +58,7 @@ Repository: https://github.com/tejamannam45/stockflow-mvp
 - [x] Product list with search
 - [x] Settings for default threshold
 - [ ] Deployed live URL
+=======
+# stockflow-mvp
+stock flow design 
+>>>>>>> 35b323e729c921fdebfa46830a6b0cb784860ade
